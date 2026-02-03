@@ -1,1 +1,3 @@
-alert("Congratulations!\nYou got the script running.")
+function buttonThing(){
+    alert("Congratulation!\nYou pressed the button...");
+};
