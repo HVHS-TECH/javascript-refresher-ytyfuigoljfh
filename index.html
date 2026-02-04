@@ -5,24 +5,32 @@
     </head>
     
     <script src="script.js"></script>
-<body>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+<body class="pinkbg">
 
-<h1 id="welcomeMessage">Welcome to the JavaScript Refresher page!</h1>
+<h1 class="blacktext" id="welcomeMessage"></h1>
 
-<p>Your tasks:
-    <ul>
+<p class="blacktext">Your tasks:
+    <ul class="blacktext">
         <li>Connect the JavaScript file - you will see an alert</li>
         <li>Add a button - Make the alert only show up when you press the button</li>
     </ul>
     <p><button onclick="buttonThing();">WOW</button></p>
     
-    Extension
-    <ul>
+    <p class="blacktext">Extension</p>
+    <ul class="blacktext">
         <li>Add a text input</li>
         <li>The button alerts you with the text you wrote</li>
         <li>Get rid of the alert - the button updates the heading of this page</li>
     </ul>
-    <p>You learned all this last year. You just need to remember how!<br>
+
+    
+  <form id="fUserText" onsubmit="return false">
+    <input class="forminput" type="text" id="text" name="text" required><br>
+   <br> <button class="formbutton" onclick="getFormInput()" value="submit">WOW</button>
+  </form>
+
+    <p class="blacktext">You learned all this last year. You just need to remember how!<br>
     You can Google it, ask a friend, copy from last year's work, whatever works for you.<br>
     By the end of the spell you should have some JavaScript going.</p>
 </body>

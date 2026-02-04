@@ -1,7 +1,11 @@
-.blackbg{
-    background-color: black;
+.pinkbg{
+    background-color: rgb(245, 193, 255);
 }
 
-.whitetext{
+.blacktext{
+    color: #383737;
+}
+
+.maintextwhite{
     color: #ffffff;
 }
